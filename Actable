@@ -1,0 +1,33 @@
+/* move(delta: Vector2f): void
+moveTo(location: Vector2f): void 
+update(): void
+render(g: Graphics): void 
+die(time: int): void
+isDead(): boolean 
+collide(a: Actable): void 
+getLocation(): Vector2f */
+
+
+
+public void moveTo ()
+{
+}
+
+public void update()
+{
+}
+public void render( Graphics g )
+{
+}
+public void die( int time );
+{
+}
+public boolean isDead()
+{
+}
+public void collide ( Actable a )
+{
+}
+getLocation()
+{
+}
