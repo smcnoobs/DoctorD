@@ -1,0 +1,7 @@
+/*
+-sprites: Animation
+-location: Vector2f 
+-boundary: HitBox
++Actor(sprites: Animation, location: Vector2f)
++Actor(sprites: Animation, location: Vector2f, boundary: HitBox)
+*/
