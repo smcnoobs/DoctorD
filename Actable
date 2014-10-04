@@ -9,25 +9,11 @@ getLocation(): Vector2f */
 
 
 
-public void moveTo ()
-{
-}
-
-public void update()
-{
-}
-public void render( Graphics g )
-{
-}
+public void moveTo ();
+public void update();
+public void render( Graphics g );
 public void die( int time );
-{
-}
-public boolean isDead()
-{
-}
-public void collide ( Actable a )
-{
-}
-getLocation()
-{
-}
+public boolean isDead();
+public void collide ( Actable a );
+getLocation();
+
