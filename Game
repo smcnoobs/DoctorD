@@ -1,0 +1,25 @@
+/*
+-scnenes: Scene[]
+-loadScenes(): void
++update(): void
++init(gc: GameContainer): void 
++render(gc: GameContainer,g: Graphics): void 
++main(args: String[]): void
+*/
+
+public void loadScenes()
+{
+}
+public void update()
+{
+}
+public void init( GameContainer gc)
+{
+}
+public void render( GameContainer gc, Graphics g)
+{
+}
+public void main ( String[] args)
+{
+}
+
