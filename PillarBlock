@@ -1,0 +1,5 @@
+package doctord;
+
+public class PillarBlock extends Actor {
+
+}
