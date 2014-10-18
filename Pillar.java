@@ -3,24 +3,19 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.geom.Vector2f;
 import org.newdawn.slick.Animation;
 
-public class PillarBlock extends Pillar{
+public class Pillar extends Actor {
+	private PillarBlock[] blocks;
 	
-	private boolean hidden;
-	
-	public boolean isHidden()
-	{
-	  return true;	
+	public Pillar() {
+		
 	}
-	public void setSprites()
+	public Pillar ( Vector2f l, Animation s)
 	{
 		
 	}
-	public PillarBlock ( Animation sprites, Vector2f location)
+	public void hideBlock ( int index )
 	{
 		
-	}
-	public PillarBlock() {
-		// TODO Auto-generated constructor stub
 	}
 
 }
