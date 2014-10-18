@@ -1,0 +1,18 @@
+package doctord;
+
+import org.newdawn.slick.Animation;
+import org.newdawn.slick.geom.Vector2f;
+
+public class Pillar extends Actor {
+	
+	private PillarBlock[] blocks;
+	
+	public Pillar(Vector2f location, Animation sprites){
+		super(location, sprites);
+	}
+	
+	public void hideBlock(int index){
+		
+	}
+
+}
