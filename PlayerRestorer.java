@@ -10,7 +10,9 @@ public class PlayerRestorer extends Item {
 	
 	public PlayerRestorer( int h, float f, Animation a, Vector2f v) 
 	{
-		// TODO Auto-generated constructor stub
+		super(a,v);
+		this.health = h;
+		this.float = f;
 	}
 	
 
