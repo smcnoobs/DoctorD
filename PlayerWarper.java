@@ -4,11 +4,12 @@ import org.newdawn.slick.geom.Vector2f;
 
 public class PlayerWarper extends Item {
 
-	private static int duration;
+	private int duration;
 	
 	public PlayerWarper(int dur, Animation sprites, Vector2f location ){
 		
 		super(sprites, location);
+		this.duration= dur;
 		
 	}
 	
