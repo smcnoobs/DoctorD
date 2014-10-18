@@ -12,7 +12,7 @@ public class PlayerRestorer extends Item {
 	{
 		super(a,v);
 		this.health = h;
-		this.float = f;
+		this.fuel = f;
 	}
 	
 
